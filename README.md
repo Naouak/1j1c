@@ -15,7 +15,7 @@ Les régles sont simples :
  * Les contributions peuvent être sur n'importe quoi (projet persos, fork d'un autre projet... etc.).
 
 
- Mes objectifs :
+Mes objectifs :
 
  * Apprendre pleins de chose
 
@@ -23,4 +23,5 @@ Les régles sont simples :
 
  * Moins trainer les pieds pour lancer un projet perso.
 
- *Combien de temps vais-je tenir ?*
+
+*Combien de temps vais-je tenir ?*
