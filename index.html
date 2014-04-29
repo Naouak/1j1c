@@ -52,7 +52,8 @@
         <h2>Explications</h2>
 
         <p>1 jour 1 commit est un challenge personnel qui consiste à poster 1 commit minimum par jour sur Github.</p>
-
+    </section>
+    <section id="rules">
         <h2>Régles</h2>
         <p>
             Les régles sont simples :
@@ -62,7 +63,8 @@
             <li>Les commits postés doivent être signifiants : Pas de modification d'une typo, pas de réindentation ou de modifications de lignes vides.</li>
             <li>Les contributions peuvent être sur n'importe quoi (projet persos, fork d'un autre projet... etc.).</li>
         </ul>
-
+    </section>
+    <section id="objectives">
         <h2>Objectifs</h2>
         <p>
             Mes objectifs sont :
@@ -83,7 +85,7 @@
                 <h3 class="last_commit">Dernier Commit</h3>
                 <pre class="commit"><%=this.payload.commits[0].message%></pre>
                 <div class="commit_date"></div>
-                <a href="<%=this.payload.commits[0].url%>" class="commit_link">Voir le commit</a>
+                <a href="<%=this.payload.commits[0].url.replace('api.','').replace('/repos','').replace('commits','commit')%>" class="commit_link">Voir le commit</a>
             </div>
         </div>
     </script>
